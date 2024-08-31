@@ -1,0 +1,13 @@
+Docker Best Practices Notes
+
+- Use Multi Stage Buils 
+separation of building of an imae
+- Exclude with .dickerignore , git
+- Do not install unncessary packages build cache
+- Optimize image size 
+- Do not use image tags as latest 
+- use the least privilges user
+- scan images for security vlunerabilities 
+- COPY and ADD 
+- ENTRYPOINT 
+   En
