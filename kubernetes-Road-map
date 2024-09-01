@@ -1,0 +1,36 @@
+Kunerntes Road Map  
+1. Core Components
+-Cluster -Service -Replicaset 
+-Deployments -pods -Namespace
+2. Infrastrcuture control plane 
+-Node -APIServer -ControlPlane
+-Operator -etcd -kubelet
+3.Security and Identity Management
+RBAC Authentication Security-Context
+IAM Authorization AIP Access Control 
+4. AutoScaling and Load Balancing
+Node Auto Provisioning Horizontal Node AutoScaler Vertical auto scalar
+Load Balancer Cluster AutoScaler 
+5 backup and restore DO 
+Statefulset applications
+CSI
+
+6 StatefulSet Applications and Data Management 
+Custom Resource Definition 
+Persistent Volume Claim
+CSI Driver
+CSI
+Volume Snapshots
+7 Networking 
+ServiceMesh API Gateway Network Policies DNS Extrrnal DNS Caching 
+Image Controller Servicemesh proxy 
+8 package Management and Configuration
+Helm Variables Kustomize init containers operation framework config syncs
+environment 
+9 Monitoring and observability 
+Metric server Tracing Audit logging Events Prometheus Logging Graphana Open telemeters log aggregator
+
+
+10 CI/CD 
+Gitops Rolling updates Bluegreen Deployments
+Backpressure Canary Deployments 
